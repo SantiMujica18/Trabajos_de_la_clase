@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.playlist{
+    background: rgb(237, 120, 18);
+        background: linear-gradient(13deg, rgba(237, 120, 18, 1)
+         54%, rgba(217, 210, 16, 1) 95%);
+}
+.nombre-playlist{
+    margin: 30px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    color: wheat;
+}
+.imagen-lista{
+    width: 280px;
+}
+.info-playlist{
+    margin: 40px;
+}
+.lista-titulos{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 20px;
+}
+.lista-titulos li{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.genero-imagen{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.genero-lista{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+    color:wheat;
+}
+body{
+background: rgb(83, 82, 39);
+    background: linear-gradient(180deg, rgba(83, 82, 39, 1) 13%, rgba(237, 120, 18, 1) 84%);
+}
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+
+}
+.pie{
+    list-style: none;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 48
+}
